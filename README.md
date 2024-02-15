@@ -32,7 +32,7 @@ This repository contains Python scripts for automating the clock-in and clock-ou
 ## Usage
 
 - Edit the `positions.txt` file to include the positions (full name) you may need to clock in for, each on a new line.
-- Edit the variable inside the '' `chrome_driver_path = ''` with the path of your Chromedriver executable file (try searching for    chromedriver.exe) [Find ChromeDriver Path](##-Finding-Your-ChromeDriver-Path)
+- Edit the variable inside the '' `chrome_driver_path = ''` with the path of your Chromedriver executable file (try searching for    chromedriver.exe) [Find ChromeDriver Path](#finding-your-chromedriver-path)
 - Edit the variables `username_field.send_keys('')` and `password_field.send_keys('')` with your username and password inside the ''
 - Run `clockin.py` or `clockout.py` from the command line, providing the line number of your position in `positions.txt` as an argument for clock-in. 
     - For clockin: `python clockin.py <Line Number>`
