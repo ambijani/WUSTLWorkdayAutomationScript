@@ -64,7 +64,7 @@ def main(position_line_number):
         dropdown.click()
 
         position_option = WebDriverWait(browser, 10).until(
-            EC.element_to_be_clickable((By.XPATH, f"//div[contains(text(), '{position_name}')]"))
+            EC.element_to_be_clickable((By.XPATH, f'//*[@id="promptOption-gwt-uid-{position_line_number+5}"]'))
         )
         position_option.click()
 
