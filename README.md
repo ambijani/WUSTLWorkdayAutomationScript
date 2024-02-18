@@ -8,6 +8,11 @@ This repository contains Python scripts for automating the clock-in and clock-ou
 - **Automatic Clock-Out**: Logs you into the workday portal and performs the clock-out operation automatically.
 - **Position Selection**: Allows for selection of job positions during the clock-in process using a positions list.
 
+## Hotfix Documentation
+
+For a detailed list of hotfixes, including descriptions, dates applied, and contributors, please see our [Hotfixes Documentation](HOTFIXES.md).
+
+
 ## Prerequisites
 
 - Python 3.x
