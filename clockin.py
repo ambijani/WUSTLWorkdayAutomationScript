@@ -63,8 +63,11 @@ def main(position_line_number):
         )
         dropdown.click()
 
+        data_automation_id = "promptOption"
+        xpath_expression = f"//div[@data-automation-id='{data_automation_id}'][@title='{position_name}']"
+        # Wait for the element to be clickable and then click on it
         position_option = WebDriverWait(browser, 10).until(
-            EC.element_to_be_clickable((By.XPATH, f'//*[@id="promptOption-gwt-uid-{position_line_number+5}"]'))
+            EC.element_to_be_clickable((By.XPATH, xpath_expression))
         )
         position_option.click()
 
