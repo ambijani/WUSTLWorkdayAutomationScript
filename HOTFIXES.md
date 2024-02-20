@@ -20,6 +20,7 @@ Below is the list of applied hotfixes, including their issue number, description
 | Issue Number | Description                      | Date Applied | Applied By     |
 |--------------|----------------------------------|--------------|----------------|
 | Example: 01  | Fix for clock-in error causing incorrect clock-ins. | 2024-02-18   | Alymuhammad Bijani |
+| 02 | Fix for clock-in error, not clicking element | 2024-02-19 | Alymuhammad Bijani |
 
 ## Hotfix Details
 
