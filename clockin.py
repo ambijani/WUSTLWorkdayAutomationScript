@@ -28,6 +28,7 @@ def main(position_line_number):
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument(f'--webdriver={chrome_driver_path}')
     browser = webdriver.Chrome(options=chrome_options)
+    browser.maximize_window()
 
     login_url = 'https://one.wustl.edu/launch-task/all/workday'
     browser.get(login_url)
