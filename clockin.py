@@ -28,10 +28,10 @@ def main(position_line_number):
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument(f'--webdriver={chrome_driver_path}')
     browser = webdriver.Chrome(options=chrome_options)
-    browser.maximize_window()
 
     login_url = 'https://one.wustl.edu/launch-task/all/workday'
     browser.get(login_url)
+    browser.maximize_window()
 
     try:
         # Login process
@@ -60,12 +60,12 @@ def main(position_line_number):
         checkin_button.click()
         
         dropdown = WebDriverWait(browser, 10).until(
-            EC.element_to_be_clickable((By.ID, "56$233036-input--uid13-input"))
+            EC.element_to_be_clickable((By.ID, "56$233036-input--uid12-input"))
         )
         dropdown.click()
 
-        data_automation_id = "promptOption"
-        xpath_expression = f"//div[@data-automation-id='{data_automation_id}'][@title='{position_name}']"
+        xpath_expression = f"//div[@aria-label='{position_name}']"
+
         # Wait for the element to be clickable and then click on it
         position_option = WebDriverWait(browser, 10).until(
             EC.element_to_be_clickable((By.XPATH, xpath_expression))
