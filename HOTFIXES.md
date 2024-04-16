@@ -21,7 +21,8 @@ Below is the list of applied hotfixes, including their issue number, description
 |--------------|----------------------------------|--------------|----------------|
 | Example: 01  | Fix for clock-in error causing incorrect clock-ins. | 2024-02-18   | Alymuhammad Bijani |
 | 02 | Fix for clock-in error, not clicking element | 2024-02-19 | Alymuhammad Bijani |
-| 03 | Element not clickable for dropdown | 2024-02-29 | Alymuhammad Bijani
+| 03 | Element not clickable for dropdown | 2024-02-29 | Alymuhammad Bijani |
+| 04 | Element click intercepted with "Hours Worked" instead of clicking on correct position| 2024-04-15 | Alymuhammad Bijani |
 
 ## Hotfix Details
 
