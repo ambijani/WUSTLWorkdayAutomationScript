@@ -42,7 +42,7 @@ try:
 
     # Find and click the "Check Out" button by CSS Selector
     check_out_button = WebDriverWait(browser, 10).until(
-        EC.presence_of_element_located((By.XPATH, '//button[@aria-label="Check Out"]'))
+        EC.presence_of_element_located((By.XPATH, "//button[@class='css-1yxsbie']/span[text()='Check Out']"))
     )
     check_out_button.click()
 
