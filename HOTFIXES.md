@@ -25,6 +25,7 @@ Below is the list of applied hotfixes, including their issue number, description
 | 04 | Element click intercepted with "Hours Worked" instead of clicking on correct position| 2024-04-15 | Alymuhammad Bijani |
 | 05 | Change clock-in from menu to main location | 2024-04-25 | Alymuhammad Bijani |
 | 06 | Change clock-out from menu to main location | 2024-04-29 | Alymuhammad Bijani |
+| 07 | Scroll to position element before click | 2024-05-01 | Alymuhammad Bijani |
 
 ## Hotfix Details
 
