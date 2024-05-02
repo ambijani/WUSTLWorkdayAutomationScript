@@ -67,6 +67,7 @@ def main(position_line_number):
         position_option = WebDriverWait(browser, 10).until(
             EC.element_to_be_clickable((By.XPATH, xpath_expression))
         )
+        browser.execute_script("arguments[0].scrollIntoView();", position_option) # scroll into element view
         position_option.click()
 
         ok_button = WebDriverWait(browser, 10).until(
