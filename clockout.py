@@ -2,17 +2,13 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
 import time
 
 
-chrome_driver_path = '' # Specify the path to your chromedriver.exe in ''
-
-# Set the ChromeDriver executable path using ChromeOptions
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument(f'--webdriver={chrome_driver_path}')
-
 # Initialize the browser
-browser = webdriver.Chrome(options=chrome_options)
+options = Options()
+browser = webdriver.Chrome(options)
 login_url = 'https://one.wustl.edu/launch-task/all/workday'
 
 # Open the login page
