@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
 import time
 
 def main(position_line_number):
@@ -23,11 +24,9 @@ def main(position_line_number):
         print(f"File {positions_file} not found.")
         sys.exit(1)
 
-    # Initialize the browser with ChromeOptions
-    chrome_driver_path = '' # Specify the path to your chromedriver.exe in ''
-    chrome_options = webdriver.ChromeOptions()
-    chrome_options.add_argument(f'--webdriver={chrome_driver_path}')
-    browser = webdriver.Chrome(options=chrome_options)
+    # Initialize the browser
+    options = Options()
+    browser = webdriver.Chrome(options)
 
     login_url = 'https://one.wustl.edu/launch-task/all/workday'
     browser.get(login_url)
