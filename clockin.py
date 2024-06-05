@@ -51,7 +51,7 @@ def main(position_line_number):
         )
         skip_button.click()
         print('Login success')
-        hotfix-05-change-clockin-location
+
         # Clock-in button
         checkin_button = WebDriverWait(browser, 10).until( EC.presence_of_element_located((By.CSS_SELECTOR, 'button.css-1yxsbie')) )
         
