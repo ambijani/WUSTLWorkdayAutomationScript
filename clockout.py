@@ -43,8 +43,10 @@ try:
     check_out_button.click()
 
     ok_button = WebDriverWait(browser, 10).until(
-        EC.presence_of_element_located((By.CSS_SELECTOR, 'button[data-automation-id="wd-CommandButton_uic_okButton"]'))
-    )
+        EC.element_to_be_clickable((
+            By.XPATH, "//button[@data-automation-id='wd-CommandButton' and @title='OK']"
+        ))
+        )
     ok_button.click()
 
     print('you successfully clocked out')
