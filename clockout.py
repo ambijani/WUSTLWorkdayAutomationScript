@@ -30,18 +30,19 @@ try:
     browser.find_element(By.ID,'ucWUSTLKeyLogin_btnLogin').click()
     
     #press skip auth button
-    skip_button = WebDriverWait(browser, 10).until(
-        EC.presence_of_element_located((By.CSS_SELECTOR, '.css-h019vb'))
-    )
+    skip_button = WebDriverWait(browser, 30).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, '.css-h019vb'))
+        )
     skip_button.click()
     print('Login success')
 
-    # Find and click the "Check Out" button by CSS Selector
-    check_out_button = WebDriverWait(browser, 10).until(
-        EC.presence_of_element_located((By.XPATH, "//button[@class='css-1yxsbie']/span[text()='Check Out']"))
+    # Find and click the "Check Out" button by XPath
+    check_out_button = WebDriverWait(browser, 30).until(
+        EC.element_to_be_clickable((By.XPATH, "//button[@class='css-1c4bazy' and span[text()='Check Out']]"))
     )
     check_out_button.click()
 
+    # Confirm the clock-out action by clicking the "OK" button
     ok_button = WebDriverWait(browser, 10).until(
         EC.element_to_be_clickable((
             By.XPATH, "//button[@data-automation-id='wd-CommandButton' and @title='OK']"
@@ -58,4 +59,4 @@ except Exception as e:
 finally: 
     time.sleep(5)
     browser.quit()
-    print('you did it!')
+    print('You successfully clocked-out')
