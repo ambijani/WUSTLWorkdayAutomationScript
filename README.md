@@ -38,5 +38,15 @@ For a detailed list of hotfixes, including descriptions, dates applied, and cont
     - For clockin: `python clockin.py <Line Number>`
     - For clockout: `python clockout.py`
 
+### Demo Video
+
+You can watch a demo video of the WUSTLWorkdayAutomationScript in action below:
+
+https://github.com/user-attachments/assets/17204e68-25ae-4c4c-bb70-6b1f26698d9e
+
+
+
+
+
 ## Contributions
 Contributions to improve the tool or fix issues are welcome. Please submit a pull request or open an issue for discussion.
