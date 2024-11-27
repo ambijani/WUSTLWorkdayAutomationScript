@@ -15,7 +15,7 @@ def clock_in_thread():
         position_index = dropdown["values"].index(selected_position) + 1
         log_text.insert(tk.END, f"Clocking in for position: {selected_position}...\n")
         result = subprocess.run(
-            ["python", "workdayClockIn.py", str(position_index)],
+            ["python", "clockin.py", str(position_index)],
             capture_output=True,
             text=True
         )
@@ -34,7 +34,7 @@ def clock_out_thread():
     try:
         log_text.insert(tk.END, "Clocking out...\n")
         result = subprocess.run(
-            ["python", "workdayClockout.py"],
+            ["python", "clockout.py"],
             capture_output=True,
             text=True
         )
