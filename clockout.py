@@ -38,7 +38,7 @@ try:
 
     # Find and click the "Check Out" button by XPath
     check_out_button = WebDriverWait(browser, 30).until(
-        EC.element_to_be_clickable((By.XPATH, "//button[@class='css-1c4bazy' and span[text()='Check Out']]"))
+        EC.element_to_be_clickable((By.XPATH, "//button[@class='css-1c82jai' and span[text()='Check Out']]"))
     )
     check_out_button.click()
 

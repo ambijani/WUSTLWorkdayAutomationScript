@@ -60,7 +60,7 @@ def main(position_line_number):
 
         # Clock-in button
         checkin_button = WebDriverWait(browser, 30).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, 'button.css-1c4bazy'))
+            EC.presence_of_element_located((By.CSS_SELECTOR, 'button.css-1c82jai'))
         )
         checkin_button.click()
 
