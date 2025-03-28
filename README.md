@@ -42,7 +42,8 @@ For a detailed list of hotfixes, including descriptions, dates applied, and cont
 
 You can watch a demo video of the WUSTLWorkdayAutomationScript in action below:
 
-https://github.com/user-attachments/assets/17204e68-25ae-4c4c-bb70-6b1f26698d9e
+https://github.com/user-attachments/assets/96587769-7ebb-42a6-96b3-00c2e2ee15bc
+
 
 
 
