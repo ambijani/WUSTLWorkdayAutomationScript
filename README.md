@@ -1,6 +1,6 @@
 # WUSTLWorkdayAutomationScript
 
-This repository contains Python scripts for automating the clock-in and clock-out process on a web-based workday portal using Selenium WebDriver. It's designed to ease the daily routine of logging work hours AND ONLY WORKS ON CAMPUS OR VIA VPN. YOU MUST BE CONNECTED TO WASHU WIFI
+This repository contains Python scripts for automating the clock-in and clock-out process on a web-based workday portal using Selenium WebDriver. It's designed to ease the daily routine of logging work hours **AND ONLY WORKS ON CAMPUS OR VIA VPN. YOU MUST BE CONNECTED TO WASHU WIFI**
 
 ## Features
 
