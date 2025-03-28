@@ -28,6 +28,7 @@ Below is the list of applied hotfixes, including their issue number, description
 | 07 | Scroll to position element before click | 2024-05-01 | Alymuhammad Bijani |
 | 08 | Updated element for "Ok" button  | 2024-06-12 | Alymuhammad Bijani |
 | 09 | Updated element for "Dropdown", "Position Selection", and "Ok" buttons | 2024-09-12 | Alymuhammad Bijani |
+| 10 | Updated element for "Check-In" and "Check-out" buttons | 2025-03-28 | Alymuhammad Bijani |
 
 ## Hotfix Details
 
