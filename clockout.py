@@ -37,10 +37,10 @@ try:
     print('Login success')
 
     # Find and click the "Check Out" button by XPath
-    check_out_button = WebDriverWait(browser, 30).until(
-        EC.element_to_be_clickable((By.XPATH, "//button[@class='css-1c82jai' and span[text()='Check Out']]"))
-    )
-    check_out_button.click()
+    checkout_button = WebDriverWait(browser, 30).until( 
+        EC.element_to_be_clickable((By.XPATH, "//button[.//span[text()='Check Out']]")) 
+    ) 
+    checkout_button.click()
 
     # Confirm the clock-out action by clicking the "OK" button
     ok_button = WebDriverWait(browser, 10).until(
