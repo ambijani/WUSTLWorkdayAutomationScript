@@ -30,6 +30,7 @@ Below is the list of applied hotfixes, including their issue number, description
 | 09 | Updated element for "Dropdown", "Position Selection", and "Ok" buttons | 2024-09-12 | Alymuhammad Bijani |
 | 10 | Updated element for "Check-In" and "Check-out" buttons | 2025-03-28 | Alymuhammad Bijani |
 | 11 | Updated element for "Check-In" button | 2025-05-05 | Alymuhammad Bijani |
+| 12 | Updated element for "Check-out" button | 2025-05-05 | Alymuhammad Bijani |
 
 ## Hotfix Details
 
